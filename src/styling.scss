@@ -46,3 +46,16 @@ body {
     padding: 5px;
   }
 }
+
+.depict-img-mod {
+  // Together with styling generated in JS, this makes a container with the aspect ratio specified in JS that behaves like the image
+  // This is so that the height is constant between when the image is loading and when it is loaded
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

@@ -1,8 +1,12 @@
 @use "@depict-ai/plp-styling/src/variables.scss";
 @use "@depict-ai/plp-styling/src/helpers/utils.scss";
 @use "@depict-ai/plp-styling/src/components/PLP";
+@use "@depict-ai/plp-styling/src/components/PLP/Buttons";
 @use "@depict-ai/plp-styling/src/components/search";
 @use "@depict-ai/plp-styling/src/components/search/InstantCard.scss";
+
+Buttons.$secondary-button-overrides: ("background": #fff); // site BG is white in this example, style secondary buttons to be white to match it
+// See some more SCSS documentation at https://scss-docs.depict.ai
 
 .depict.plp {
   @include search.Autocomplete();

@@ -2,7 +2,7 @@
   "source": "src/index.html",
   "dependencies": {
     "@depict-ai/plp-styling": "^0.0.5",
-    "@depict-ai/ui": "^0.0.33",
+    "@depict-ai/ui": "^0.0.35",
     "@depict-ai/utilishared": "^0.0.31"
   },
   "devDependencies": {

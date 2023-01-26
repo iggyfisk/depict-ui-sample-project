@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.20.12"],\
             ["@babel/plugin-transform-react-jsx", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.20.13"],\
             ["@depict-ai/plp-styling", "npm:0.0.5"],\
-            ["@depict-ai/ui", "npm:0.0.33"],\
+            ["@depict-ai/ui", "npm:0.0.35"],\
             ["@depict-ai/utilishared", "npm:0.0.31"],\
             ["@parcel/transformer-sass", "npm:2.8.3"],\
             ["parcel", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.8.3"],\
@@ -394,17 +394,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@depict-ai/ui", [\
-        ["npm:0.0.33", {\
-          "packageLocation": "./.yarn/cache/@depict-ai-ui-npm-0.0.33-e820c1a204-fedc15ce8b.zip/node_modules/@depict-ai/ui/",\
+        ["npm:0.0.35", {\
+          "packageLocation": "./.yarn/cache/@depict-ai-ui-npm-0.0.35-8eae83e405-379f78dbcc.zip/node_modules/@depict-ai/ui/",\
           "packageDependencies": [\
-            ["@depict-ai/ui", "npm:0.0.33"],\
-            ["@depict-ai/utilishared", "npm:0.0.31"],\
+            ["@depict-ai/ui", "npm:0.0.35"],\
+            ["@depict-ai/utilishared", "npm:0.0.28"],\
             ["solid-js", "npm:1.6.9"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@depict-ai/utilishared", [\
+        ["npm:0.0.28", {\
+          "packageLocation": "./.yarn/cache/@depict-ai-utilishared-npm-0.0.28-3465e5cad2-33939033c8.zip/node_modules/@depict-ai/utilishared/",\
+          "packageDependencies": [\
+            ["@depict-ai/utilishared", "npm:0.0.28"],\
+            ["@sentry/browser", "npm:7.33.0"],\
+            ["solid-js", "npm:1.6.9"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:0.0.31", {\
           "packageLocation": "./.yarn/cache/@depict-ai-utilishared-npm-0.0.31-548502d23a-cc241b2078.zip/node_modules/@depict-ai/utilishared/",\
           "packageDependencies": [\
@@ -3561,7 +3570,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.20.12"],\
             ["@babel/plugin-transform-react-jsx", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.20.13"],\
             ["@depict-ai/plp-styling", "npm:0.0.5"],\
-            ["@depict-ai/ui", "npm:0.0.33"],\
+            ["@depict-ai/ui", "npm:0.0.35"],\
             ["@depict-ai/utilishared", "npm:0.0.31"],\
             ["@parcel/transformer-sass", "npm:2.8.3"],\
             ["parcel", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:2.8.3"],\

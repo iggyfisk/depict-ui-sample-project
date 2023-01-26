@@ -290,13 +290,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@depict-ai/ui@npm:^0.0.33":
-  version: 0.0.33
-  resolution: "@depict-ai/ui@npm:0.0.33"
+"@depict-ai/ui@npm:^0.0.35":
+  version: 0.0.35
+  resolution: "@depict-ai/ui@npm:0.0.35"
   dependencies:
-    "@depict-ai/utilishared": ^0.0.31
+    "@depict-ai/utilishared": ^0.0.28
     solid-js: ^1.6.2
-  checksum: fedc15ce8b17ca20e7d94625e58e9ec64b2f364084e2d798bf4ad2b2a26e3dc59a07ad5d0858520ff628c60ca46c643319b66fcf4d6bec08770152c7692c979a
+  checksum: 379f78dbcc2167088344ed894114f0de433deabe5f18693b91abb0d1e752c75161363a4cfd4bcb3f00ca7488df5115c092b5c7e735b580a7e9d9f5d20db1e412
+  languageName: node
+  linkType: hard
+
+"@depict-ai/utilishared@npm:^0.0.28":
+  version: 0.0.28
+  resolution: "@depict-ai/utilishared@npm:0.0.28"
+  dependencies:
+    "@sentry/browser": ^7.23.0
+    solid-js: ^1.6.2
+  checksum: 33939033c85c362b400c7e50e7ee7a12d81c5977948068c9f0e38f882c1d6ee28b09df3b8038a08ba27b774abc220f18b78abff046fd19fb0bc6fdcae6b02339
   languageName: node
   linkType: hard
 
@@ -3000,7 +3010,7 @@ __metadata:
     "@babel/core": ^7.12.0
     "@babel/plugin-transform-react-jsx": ^7.20.13
     "@depict-ai/plp-styling": ^0.0.5
-    "@depict-ai/ui": ^0.0.33
+    "@depict-ai/ui": ^0.0.35
     "@depict-ai/utilishared": ^0.0.31
     "@parcel/transformer-sass": 2.8.3
     parcel: ^2.8.3

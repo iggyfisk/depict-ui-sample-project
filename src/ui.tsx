@@ -9,6 +9,13 @@ const depict_search = new DepictSearch({
   url_transformer: url_object => (url_object.pathname = "/search.html"),
   localization: {
     ...sv,
+    price_formatting_: {
+      pre_: "",
+      post_: String.fromCharCode(160) /* non-breaking space */ + "kr",
+      decimal_places_delimiter_: ",",
+      thousands_delimiter_: " ",
+      places_after_comma_: "auto",
+    },
   },
 });
 
@@ -17,6 +24,7 @@ observer.onexists(".search-field", ({ element }) => element.append(...SearchFiel
 
 // if search is open (pathname ends on /search.html) replace the content of the page with the search page
 // this is because we want to be able to "single page navigate"/ go really quickly to the search page and be able to go from search to search without reloading the page
+// PageReplacer is unfortunately undocumented right now
 new PageReplacer({
   is_page_: url => url.pathname == "/search.html",
   selector_: `.replace-for-search`,
