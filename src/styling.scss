@@ -1,0 +1,48 @@
+@use "./depict-ui";
+
+$header-height: 1.5cm;
+
+.header {
+  position: fixed;
+  top: 0;
+  height: $header-height;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+
+  .search-field {
+    max-width: 800px;
+    flex-grow: 1;
+  }
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  padding-top: $header-height;
+  font-family: Helvetica;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+  }
+}

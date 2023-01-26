@@ -1,0 +1,32 @@
+@use "@depict-ai/plp-styling/src/variables.scss";
+@use "@depict-ai/plp-styling/src/helpers/utils.scss";
+@use "@depict-ai/plp-styling/src/components/PLP";
+@use "@depict-ai/plp-styling/src/components/search";
+@use "@depict-ai/plp-styling/src/components/search/InstantCard.scss";
+
+.depict.plp {
+  @include search.Autocomplete();
+  @include search.CategorySuggestions();
+  @include search.InstantResults();
+  @include search.QueryInput();
+  @include search.SearchModal();
+  @include search.ProductListingPage();
+  @include search.SearchPage();
+  @include PLP.SelectedFilters();
+  @include PLP.PLPResults();
+  @include PLP.ScrollStatus();
+  @include PLP.PrimaryButton();
+  @include PLP.SecondaryButton();
+  @include search.ShowingResultsFor();
+  @include PLP.WhiteSortAndFilter();
+  @include PLP.FloatingButtons();
+  @include PLP.SlidableItems();
+  @include search.SearchRecommendations();
+  @include InstantCard.InstantCard();
+
+  .listing-page {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+@include PLP.Toast();

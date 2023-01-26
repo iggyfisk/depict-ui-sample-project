@@ -1,0 +1,20 @@
+{
+  "source": "src/index.html",
+  "dependencies": {
+    "@depict-ai/plp-styling": "^0.0.5",
+    "@depict-ai/ui": "^0.0.33",
+    "@depict-ai/utilishared": "^0.0.31"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@babel/plugin-transform-react-jsx": "^7.20.13",
+    "@parcel/transformer-sass": "2.8.3",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "dev": "parcel serve",
+    "build": "parcel build"
+  }
+}
