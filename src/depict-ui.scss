@@ -34,3 +34,10 @@ Buttons.$secondary-button-overrides: ("background": #fff); // site BG is white i
   }
 }
 @include PLP.Toast();
+
+
+#depict-plp-category {
+  .quicklinks {
+    display: none;
+  }
+}
